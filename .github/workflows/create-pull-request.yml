@@ -1,6 +1,10 @@
 name: Create Pull Request
 
-on: push
+on:
+  push:
+    branches:
+      - /refs/heads/*
+      - "!main"
 
 jobs:
   create_pull_request:
