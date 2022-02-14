@@ -20,9 +20,9 @@ jobs:
       - name: Install
         run: yarn
       - name: Release
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: yarn semantic-release
       - name: Get version
         id: get_version
         run: echo ::set-output name=version::$(npm pkg get version | sed 's/"//g')
