@@ -1,4 +1,4 @@
-name: Create & Merge Pull Request
+name: Create Pull Request
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
       - "!main"
 
 jobs:
-  create_and_merge_pull_request:
-    name: Create & Merge Pull Request
+  create_pull_request:
+    name: Create Pull Request
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,7 +18,3 @@ jobs:
         with:
           destination_branch: main
           github_token: ${{ secrets.GH_PAT }}
-      - name: Merge Pull Request
-        uses: pascalgn/automerge-action@v0.14.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
