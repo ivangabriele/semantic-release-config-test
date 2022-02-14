@@ -33,14 +33,13 @@
   resolved "https://registry.yarnpkg.com/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
-"@ivangabriele/semantic-release-config-no-npm@1.4.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/semantic-release-config-no-npm/-/semantic-release-config-no-npm-1.5.0.tgz#b3e6d27f2e7dba52e9d06507b4c114d6ae62be48"
-  integrity sha512-TBze9n3CDjObSIRD8Z2Zx3PV79CFjtj521lHNs/kIirL1yWnca7W4IN0640GDl60XIKOrYycNeiZD+or2YqI8w==
+"@ivangabriele/semantic-release-config-no-npm@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/semantic-release-config-no-npm/-/semantic-release-config-no-npm-2.0.0.tgz#b4209f2480bf1766c35bc6682c9c377ced02f643"
+  integrity sha512-vWXkrXuzRkSAO2njUFHY8m2dHDzD9m+jH8fhkagXYrb3yxcwqg3px5bP3O5OMhKiaA5+8LkOmA3yR+9tk25unQ==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
-    "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "8.0.2"
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release "19.0.2"
@@ -355,20 +354,6 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
-
-"@semantic-release/git@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.1.tgz#c646e55d67fae623875bf3a06a634dd434904498"
-  integrity sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==
-  dependencies:
-    "@semantic-release/error" "^3.0.0"
-    aggregate-error "^3.0.0"
-    debug "^4.0.0"
-    dir-glob "^3.0.0"
-    execa "^5.0.0"
-    lodash "^4.17.4"
-    micromatch "^4.0.0"
-    p-reduce "^2.0.0"
 
 "@semantic-release/github@8.0.2", "@semantic-release/github@^8.0.0":
   version "8.0.2"
@@ -1997,7 +1982,7 @@ merge2@^1.3.0, merge2@^1.4.1:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-micromatch@^4.0.0, micromatch@^4.0.2, micromatch@^4.0.4:
+micromatch@^4.0.2, micromatch@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
   integrity sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==
