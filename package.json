@@ -1,0 +1,23 @@
+{
+  "name": "@ivangabriele/semantic-release-config-test",
+  "description": "A dummy project to test @ivangabriele/semantic-release-config.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=17",
+    "npm": ">=8"
+  },
+  "scripts": {
+    "b": "node ./make.js build",
+    "c": "node ./make.js ci",
+    "d": "node ./make.js docs",
+    "f": "node ./make.js feat",
+    "s": "node ./make.js style",
+    "r": "node ./make.js refactor"
+  },
+  "devDependencies": {
+    "execa": "6.1.0"
+  }
+}
