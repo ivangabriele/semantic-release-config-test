@@ -17,7 +17,7 @@
     "r": "node ./make.js refactor"
   },
   "devDependencies": {
-    "@ivangabriele/semantic-release-config-no-npm": "2.0.0",
+    "@ivangabriele/semantic-release-config-no-npm": "2.0.1",
     "@octokit/rest": "18.12.0",
     "execa": "6.1.0",
     "ora": "6.0.1"
