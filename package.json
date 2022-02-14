@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-test",
   "description": "A dummy project to test @ivangabriele/semantic-release-config.",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "engines": {
     "node": ">=17",
