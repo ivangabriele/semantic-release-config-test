@@ -7,7 +7,7 @@ async function waitFor(inSeconds) {
   return new Promise(resolve => setTimeout(resolve, inSeconds * 1000))
 }
 
-async function waitForPullRequestMerger(pullNumber) {
+async function waitForPullRequestMerger(pullNumber, pullTitle) {
   const octokit = new Octokit()
   const spinner = ora(`Waiting for PR to be merged…`).start()
 
@@ -25,7 +25,7 @@ async function waitForPullRequestMerger(pullNumber) {
     await waitFor(2)
   }
 
-  spinner.succeed(`PR "${pull.title}" has been merged.`)
+  spinner.succeed(`PR "${pullTitle}" has been merged.`)
 }
 
 async function waitForPullRequestCreationAndMerge() {
@@ -51,7 +51,7 @@ async function waitForPullRequestCreationAndMerge() {
 
   spinner.succeed(`PR "${pull.title}" has been opened.`)
 
-  await waitForPullRequestMerger(pull.number)
+  await waitForPullRequestMerger(pull.number, pull.title)
 }
 
 const [type] = process.argv.slice(2)
