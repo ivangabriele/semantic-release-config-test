@@ -3,7 +3,6 @@
   "description": "A dummy project to test @ivangabriele/semantic-release-config.",
   "license": "MIT",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=17",
@@ -18,6 +17,7 @@
     "r": "node ./make.js refactor"
   },
   "devDependencies": {
+    "@ivangabriele/semantic-release-config-no-npm": "2.0.0",
     "@octokit/rest": "18.12.0",
     "execa": "6.1.0",
     "ora": "6.0.1"
