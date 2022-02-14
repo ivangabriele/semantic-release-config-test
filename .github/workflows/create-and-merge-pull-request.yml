@@ -20,5 +20,5 @@ jobs:
           github_token: ${{ secrets.GH_PAT }}
       - name: Merge Pull Request
         uses: pascalgn/automerge-action@v0.14.3
-        with:
-          github_token: ${{ secrets.GH_PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
