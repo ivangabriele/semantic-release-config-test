@@ -33,10 +33,10 @@
   resolved "https://registry.yarnpkg.com/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
-"@ivangabriele/semantic-release-config-no-npm@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/semantic-release-config-no-npm/-/semantic-release-config-no-npm-2.0.1.tgz#69157a460636e23db835150eac5603f5e8f31333"
-  integrity sha512-JOwPTUzHybODgE0xLM5jZuZPkeFaYKpfuFXOza3bnecOtiSG7N1KotH2RJu/tcSWHkVWdfmakb8JI3o3QW3Iow==
+"@ivangabriele/semantic-release-config-no-npm@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/semantic-release-config-no-npm/-/semantic-release-config-no-npm-2.0.2.tgz#c1838e790cbe057f3ebb7161048571e116f125a6"
+  integrity sha512-TjjdFWkrgIYx6d/zXku1ru56T+aF0mjUQD1ksQJITaj9M7rXTpb0aqyruRTnHBL9aL6+/S85q6jlSID2KW3sOA==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
