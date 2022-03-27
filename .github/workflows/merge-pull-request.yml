@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Merge Pull Request
-        uses: pascalgn/automerge-action@v0.14.3
+        uses: pascalgn/automerge-action@v0.15.2
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           MERGE_METHOD: squash
